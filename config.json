@@ -1,0 +1,13 @@
+{
+    "Period": "1m",
+    "Count": 1000,
+    "MaxBurst": 1000,
+    "DatabasePath": "/home/jsarnelle/Documents/mbtaexercise/mbtaexercise.db",
+    "LogLevel": "DEBUG",
+    "LogFile": {
+        "LogDirectory": "/home/jsarnelle/Documents/mbtaexercise/log/",
+        "LogLevel": "WARNING",
+        "LogInterval": "1d",
+        "BackupCount": 3
+    }
+}

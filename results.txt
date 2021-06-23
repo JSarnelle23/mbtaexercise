@@ -1,0 +1,21 @@
+Problem 1: Route long names are ['Red Line', 'Mattapan Trolley', 'Orange Line', 'Green Line B', 'Green Line C', 'Green Line D', 'Green Line E', 'Blue Line'] 
+
+Problem 2: The route with the most stops is Green-B which has 26 stops
+
+Problem 3: The route with the least stops is Mattapan which has 8 stops
+
+
+Problem 4: The stops with mutiple routes (2+) and their corresponding routes are
+
+	 ('Park Street', ['Red Line', 'Green Line B', 'Green Line C', 'Green Line D', 'Green Line E'])
+	 ('Downtown Crossing', ['Red Line', 'Orange Line'])
+	 ('Ashmont', ['Red Line', 'Mattapan Trolley'])
+	 ('State', ['Orange Line', 'Blue Line'])
+	 ('Haymarket', ['Orange Line', 'Green Line B', 'Green Line C', 'Green Line E'])
+	 ('North Station', ['Orange Line', 'Green Line B', 'Green Line C', 'Green Line E'])
+	 ('Kenmore', ['Green Line B', 'Green Line C', 'Green Line D'])
+	 ('Hynes Convention Center', ['Green Line B', 'Green Line C', 'Green Line D'])
+	 ('Copley', ['Green Line B', 'Green Line C', 'Green Line D', 'Green Line E'])
+	 ('Arlington', ['Green Line B', 'Green Line C', 'Green Line D', 'Green Line E'])
+	 ('Boylston', ['Green Line B', 'Green Line C', 'Green Line D', 'Green Line E'])
+	 ('Government Center', ['Green Line B', 'Green Line C', 'Green Line D', 'Green Line E', 'Blue Line'])
