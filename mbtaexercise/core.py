@@ -64,10 +64,6 @@ class Project:
                 # Set stops_by_stop_id for this stop's ID to the current stop
                 stops_by_stop_id[stop['id']] = stop        
 
-        for stop_id in routes_by_stop_id.items():
-            for routes in routes_by_stop_id.items():
-                if len(routes) > 2:
-                    stops_by_stop_id[stop_id]['attributes']['name'] = routes['attributes']['long_name']
 
         # Loop over each stop and each route in routes_by_stop_id, if the length is greater than 1 (2+ routes for that stop),
         # populate pruned_routes_by_stop_id with the stop name and the routes that run through it
